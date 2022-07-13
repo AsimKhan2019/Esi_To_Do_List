@@ -1,3 +1,7 @@
+/**
+ * @jest-environment jsdom
+ */
+
 import { displayTasks, removeTask } from '../modules/utils';
 import Task from '../modules/tasks';
 
